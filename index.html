@@ -14,9 +14,8 @@
         <div> 
            <ul class="nav-links">
             <li><a href="#about">About</a></li>
-            <li><a href="#idea">Our Idea</a></li>
             <li><a href="#project">Project</a></li>
-            <li><a href="#us">Us</a></li>
+            <li><a href="#contact">Contact</a></li>
            </ul>
         </div>
     </nav>
@@ -30,9 +29,8 @@
         </div>
         <div class="menu-links">
             <li><a href="#about" onclick="toggleMenu()">About</a></li>
-            <li><a href="#idea" onclick="toggleMenu()">Our Idea</a></li>
             <li><a href="#project" onclick="toggleMenu()">Project</a></li>
-            <li><a href="#us" onclick="toggleMenu()">Us</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Us</a></li>
         </div>
         </div>
     </nav>
@@ -69,7 +67,7 @@
         <div class="section-container">
           <div class="section__pic-container">
             <img
-              src="./assets/PlaceHolderAboutUs.png"
+              src="./assets/AboutUsPlaceHolder.png"
               alt="Profile picture"
               class="about-pic"
             />
@@ -97,9 +95,72 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#experience'"
+        onclick="location.href='./#project'"
       />
-        <section>
+    </section>
+    <section id="project">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Project</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/ConcretizePlaceHolder.png"
+                alt="CONCRETIZE"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Main Project</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+            </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <h1 class="title">Contact Us</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:vizualizationlabs@gmail.com">visualizationlabs@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/visualizationlabs.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 VisualizationLabs. All Rights Reserved.</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
