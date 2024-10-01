@@ -4,164 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PocketViz</title>
+    <title>CONCRETIZE</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
-<body>
-    <nav id="desktop-nav">
-        <div class="logo">CONCRETIZE</div>
-        <div> 
-           <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#project">Project</a></li>
-            <li><a href="#contact">Contact</a></li>
-           </ul>
+  <body>  
+      <!-- NAVBAR -->
+      <nav class="navbar">
+        <img src="./assets/logoVizLabsDrk.png" width="150px">
+        <!-- Html is in reverse order due to flex-direction -->
+        <div class="navbar-links">
+          <a class="navbar-link">Sobre nós</a>
+          <a class="navbar-link">Notícias</a>
+          <a class="navbar-link">Documentação</a>
+          <a class="navbar-link">Sobre o Concretize</a>
         </div>
-    </nav>
-    <nav id="hamburger-nav">
-        <div class="logo">PocketViz 2</div>
-        <div class="hamburger-menu">
-            <div class="hamburger-icon" onclick="toggleMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <div class="menu-links">
-            <li><a href="#about" onclick="toggleMenu()">About</a></li>
-            <li><a href="#project" onclick="toggleMenu()">Project</a></li>
-            <li><a href="#contact" onclick="toggleMenu()">Us</a></li>
-        </div>
-        </div>
-    </nav>
-    <section id="profile">
-        <div class="section__pic-container">
-            <img src="./assets/ConcretizePlaceHolder.png" alt="PocketViz 2">
-        </div>
-        <div class="section__text">
-        <p class="section__text__p1">This is</p>
-        <h1 class="title">CONCRETIZE</h1>
-        <p class="section__text__p2">The next-gen FOSS archviz designer!</p>
-        <div class="btn-container">
-            <button class="btn btn-color-2"
-             onclick="window.open('./assets/pocketviz.png')"
-            >
-            Download Program
-        </button>
-        <button class="btn btn-color-1"
-         onclick="location.href='./#about'"
-        >
-        About Us!
-    </button>
-        </div>
-        <div id="socials-container">
-            <img src="./assets/github.png" alt="Our Github Page"
-             class="icon" onclick="location.href='https://github.com/VISUALIZATION-LABS/'"
-             />
-        </div>
-        </div>
-    </section>
-    <section id="about">
-        <p class="section__text__p1">Get To Know More</p>
-        <h1 class="title">About Visualization Labs</h1>
-        <div class="section-container">
-          <div class="section__pic-container">
-            <img
-              src="./assets/AboutUsPlaceHolder.png"
-              alt="Profile picture"
-              class="about-pic"
-            />
-        </div>
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img
-                src="./assets/experience.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <p>Students Teenagers<br />HighSchool</p>
-            </div>
-          </div>
-          <div class="text-container">
-            <p>
-                VisualizationLabs is a software development company focused on developing tools for user interaction with 3D environments. We were founded in 2024 as a subsidiary of the MADAGA group, acting as a kind of “sector” or “laboratory”. Our main role is in the development of the Concretize3D architectural visualization program
-            </p>
-          </div>
-        </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#project'"
-      />
-    </section>
-    <section id="project">
-      <h1 class="title">Project</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/ConcretizePlaceHolder.png"
-                alt="CONCRETIZE"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Main Project</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-            </div>
-        </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#contact'"
-      />
-    </section>
-    <section id="contact">
-      <h1 class="title">Contact Us</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="./assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p><a href="mailto:vizualizationlabs@gmail.com">visualizationlabs@gmail.com</a></p>
-        </div>
-        <div class="contact-info-container">
-          <img
-            src="./assets/visualizationlabs.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
-        </div>
-      </div>
-    </section>
-    <footer>
-      <nav>
-        <div class="nav-links-container">
-          <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#project">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
+          
       </nav>
-      <p>Copyright &#169; 2024 VisualizationLabs. All Rights Reserved.</p>
-      <p>Concretize is licensed under the GNU General Public License Version 3</p>
-      <p>Website source is located <a href="https://github.com/VISUALIZATION-LABS/pocketvizwebsite">here</a></p>
-    </footer>
-    <script src="script.js"></script>
-</body>
+
+      <!-- Hero section -->
+      <div class="hero-section">
+        <div class="hero-info">
+          <h1>CONCRETIZE</h1>
+          <h3>Crie ambientes em 3D e impressione os seus clientes</h3>
+          <div class="hero-buttons">
+            <button class="button-attention">Baixar</button>
+            <button class="button-acrylic">Ver mais</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="body-text">
+        <h1>Notícias</h1>
+      </div>
+
+      <div class="body-text">
+        <h1>O que é o Concretize?</h1>
+      </div>
+
+      <div class="body-text">
+        <h1>Como contribuir?</h1>
+        <p> Como o Concretize é licensiado como GPL3, o seu código fonte está disponível em nosso GitHub. Nós encorajamos qualquer interação com nosso código fonte em pról da melhora do mesmo, apliando os horizontes de nosso programa e envolvendo a comunidade no desenvolvimento do mesmo.</p>
+
+        <p> Além disso, também disponibilizamos os arquivos para a documentação do programa de forma aberta, permitindo que a própria comunidade modifique e melhore a documentação do progrma.</p>
+      </div>
+
+      <div class="body-text">
+        <h1>Sobre nós</h1>
+        
+        <p>A Visualization Labs é a principal responsável pelo desenvolvimento do Concretize, um trabalho de conclusão de curso para o curso técnico do colégio CAFA.</p>
+
+        <p>A Visualization Labs pode ser considerada uma espécie de subsidiária do Grupo Madaga, um grupo focado para a criação de software, documentários e pesquisas.</p>
+
+        <p>O projeto em si tem liderança técnica de Felipe Sena Costa (responsável pela supervisão do projeto e pelo desenvolvimento do core do Concretize), Daniel Filipe (desenvolvimento do Concretize Hub) e Markus Paulo (desenvolvimento do website). Além disso, a documentação técnica foi realizada por Giovanni Marques e o design recebeu ajuda de Danilo da Cruz.</p>
+
+
+      </div>
+  </body>
 </html>
