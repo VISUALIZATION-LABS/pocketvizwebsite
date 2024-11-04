@@ -66,9 +66,17 @@ a:hover {
     width: 65px;
     height: 65px;
     margin-right: 20px;
-
-    /* PocketViz Title Size */
 }
+
+.logomb {
+  display: flex;
+     vertical-align: top;
+     width: 35px;
+     height: 35px;
+     margin-right: 20px;
+ }
+
+/* PocketViz Title Size */
 
 .logo:hover {
     cursor: default;
