@@ -63,8 +63,8 @@ a:hover {
 .logo {
  display: flex;
     vertical-align: top;
-    width: 45px;
-    height: 45px;
+    width: 65px;
+    height: 65px;
     margin-right: 20px;
 
     /* PocketViz Title Size */
@@ -215,11 +215,15 @@ a:hover {
     gap: 1rem;
   }
   
-  /* Icons */
+  /* Icons and BMAC */
 
 .icon {
     cursor: pointer;
     height: 2rem;
+  }
+
+  .bmac {
+    width: 400px;
   }
   
   /* Buttons */
@@ -323,10 +327,16 @@ a:hover {
   margin: auto 0;
 }
 
-/* PROJECT SECTION */
+/* APOIO SECTION */
 
 #project {
   position: relative;
+}
+
+.about-bmac {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 10rem;
 }
 
 .color-container {
@@ -348,6 +358,13 @@ a:hover {
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+}
+
+#coffee-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
 }
 
 /* CONTACT */
