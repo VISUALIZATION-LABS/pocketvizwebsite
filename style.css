@@ -1,6 +1,6 @@
 /* General */
 
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 :root{
     --border-radius: 0.2rem;
@@ -12,7 +12,13 @@
 }
 
 body {
-    font-family: "Jost", sans-serif;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+.title{
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+  font-style: italic;
 }
 
 html {
@@ -71,8 +77,8 @@ a:hover {
 .logomb {
   display: flex;
      vertical-align: top;
-     width: 35px;
-     height: 35px;
+     width: 40px;
+     height: 40px;
      margin-right: 20px;
  }
 
@@ -187,6 +193,13 @@ a:hover {
   }
   
   .section__pic-container {
+    display: flex;
+    height: 160px;
+    width: 0px;
+    margin: 0;
+  } 
+
+  .section__imagebackground {
     display: flex;
     height: 160px;
     width: 0px;
