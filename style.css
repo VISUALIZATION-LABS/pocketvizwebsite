@@ -82,7 +82,7 @@ a:hover {
      margin-right: 20px;
  }
 
-/* PocketViz Title Size */
+/* CONCRETIZE Title Size */
 
 .logo:hover {
     cursor: default;
@@ -340,8 +340,8 @@ a:hover {
 }
 
 .section__pic-container2 {
-  height: 100px;
-  width: 100px;
+  height: 400px;
+  width: 400px;
   margin: auto 0;
 }
 
